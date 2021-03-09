@@ -44,3 +44,51 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-03-09 19:42:48.362
 !MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.eclipse.ui 2 2 2021-03-09 19:48:02.452
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:34.715
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:34.716
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4a223109[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=573)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:34.719
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:34.741
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.891
+!MESSAGE Boot LS startup time from start to initialized: 2166ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.964
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.neZAHtJAisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.967
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.968
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.969
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.969
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.969
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.neZAHtJA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.972
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.973
+!MESSAGE buffering callback sts4.classpath.neZAHtJA demo false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:36.973
+!MESSAGE executing callback sts4.classpath.neZAHtJA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-09 19:48:37.001
+!MESSAGE executing callback sts4.classpath.neZAHtJA SUCCESS [done]
