@@ -10,6 +10,9 @@ public class UserControllerImpl implements UserController{
 	@Autowired User user;
 	
 	public void test() {
-		user.get
+		user.getUserNo();
+		user.getUserid();
+		user.getEmail();
+		user.getUsername();
 	}
 }
