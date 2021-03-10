@@ -1,5 +1,9 @@
 package com.example.demo.bbs.controller;
 
-public class BoardController {
+import org.springframework.stereotype.Controller;
+
+@Controller
+public interface BoardController{
 
 }
+ 

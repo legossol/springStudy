@@ -1,0 +1,10 @@
+package com.example.demo.uss.service;
+
+import org.springframework.stereotype.Service;
+
+//인터페이스는 객체가 아니다 즉 클래스가 아니기 때문에 @service를 쓰지 않는다
+public interface UserServiceImp {
+	public void test2();
+	private int a;
+	
+}
