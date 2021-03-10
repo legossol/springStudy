@@ -1,2 +1,17 @@
 1615343275072	Delete element
 1615343280230	Delete element
+1615354339992	Rename compilation unit 'IserServoceImpl.java'
+1615354366998	Rename type 'UserService'
+1615354375702	Rename compilation unit 'UserServoceImpl.java'
+1615354385945	Rename compilation unit 'UserServoce.java'
+1615354412929	Rename type 'UserServiceImp'
+1615356402511	Delete element
+1615356697845	Delete element
+1615356813811	Delete element
+1615358471579	Delete element
+1615358663547	Delete element
+1615360269841	Encapsulate field 'userNo'
+1615360274337	Encapsulate field 'userid'
+1615360277466	Encapsulate field 'passwd'
+1615360280764	Encapsulate field 'username'
+1615360284266	Encapsulate field 'email'
