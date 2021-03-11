@@ -1,48 +1,20 @@
 package com.example.demo.uss.domain;
 
-import java.io.Serializable;
+import javax.persistence.*;
 
-import org.springframework.stereotype.Component;
-
-import lombok.Data;
-
-@Component @Data
-public class User implements Serializable{
-	private static final long serialVersionUID = 1L;
+@Entity
+@Table(name="users")
+public class User {
+	@Column(name = "user_no")
 	private long userNo;
-	private String userid;
+	@Column(name = "user_id")
+	private String userId;
+	@Column(name = "passwd")
 	private String passwd;
-	private String username;
+	@Column(name = "user_name")
+	private String userName;
+	@Column(name = "email")
 	private String email;
-	public long getUserNo() {
-		return userNo;
-	}
-	public void setUserNo(long userNo) {
-		this.userNo = userNo;
-	}
-	public String getUserid() {
-		return userid;
-	}
-	public void setUserid(String userid) {
-		this.userid = userid;
-	}
-	public String getPasswd() {
-		return passwd;
-	}
-	public void setPasswd(String passwd) {
-		this.passwd = passwd;
-	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
+	
 	
 }

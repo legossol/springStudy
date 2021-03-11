@@ -1,50 +1,16 @@
 package com.example.demo.bbs.domain;
 
-import java.io.Serializable;
+import javax.persistence.Column;
 
-import org.springframework.stereotype.Component;
-
-import lombok.Data;
-
-@Component @Data
-public class Board implements Serializable{
-	private static final long serialVersionUID = 1L;
+public class Board {
+	@Column(name = "board_no")
 	private long boardNo;
+	@Column(name = "title")
 	private String title;
+	@Column(name = "index")
 	private String index;
+	@Column(name = "writer")
 	private String writer;
-	private String Date;
-	
-	public long getBoardNo() {
-		return boardNo;
-	}
-	public void setBoardNo(long boardNo) {
-		this.boardNo = boardNo;
-	}
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
-	public String getIndex() {
-		return index;
-	}
-	public void setIndex(String index) {
-		this.index = index;
-	}
-	public String getWriter() {
-		return writer;
-	}
-	public void setWriter(String writer) {
-		this.writer = writer;
-	}
-	public String getDate() {
-		return Date;
-	}
-	public void setDate(String date) {
-		Date = date;
-	}
-	
-
+	@Column(name = "date")
+	private String date;
 }

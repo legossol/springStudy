@@ -1,0 +1,16 @@
+package com.example.demo.bbs.domain;
+
+import javax.persistence.Column;
+
+public class Board {
+	@Column(name = "boardNo")
+	private long boardNo;
+	@Column(name = "title")
+	private String title;
+	@Column(name = "index")
+	private String index;
+	@Column(name = "writer")
+	private String writer;
+	@Column(name = "date")
+	private String date;
+}

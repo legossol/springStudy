@@ -1,0 +1,11 @@
+package com.example.demo.article.repository;
+
+import com.example.demo.bbs.repository.JpaRepository;
+import com.example.demo.bbs.repository.User;
+
+interface UserCustomRepo{
+	
+}
+public interface ArticleRepo extends JpaRepository<User,Long>, UserCustomRepo{
+
+}

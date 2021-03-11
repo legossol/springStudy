@@ -3,6 +3,6 @@ package com.example.demo.uss.repository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class UserRepoImpl implements UserRepo{
+public class UserRepoImpl {
 
 }

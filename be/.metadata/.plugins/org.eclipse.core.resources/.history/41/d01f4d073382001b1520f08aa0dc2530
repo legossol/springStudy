@@ -1,0 +1,11 @@
+package com.example.demo.uss.repository;
+
+import com.example.demo.uss.service.JpaRepository;
+import com.example.demo.uss.service.User;
+
+interface UserCustomRepo{
+	
+}
+public interface UserRepo extends JpaRepository<User, Long>, UserCustomRepo{
+
+}
