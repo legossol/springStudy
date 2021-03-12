@@ -1,12 +1,10 @@
 import './App.css';
 
-function Login(){
+const Login = () =>
+    // const butt={
+    //     background:"#f1f1f1"
+    // }
 
-    const butt={
-        background:"#f1f1f1"
-    }
-    
-    return(
         <form className="modal-content animate" method="post">
             <div className="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" className="close" title="Close Modal">&times;</span>
@@ -26,12 +24,10 @@ function Login(){
           </label>
         </div>
     
-        <div className="container" style={butt}>
+        <div className="container" style={{background:"#f1f1f1"}}>
           <button type="button" onclick="document.getElementById('id01').style.display='none'" className="cancelbtn">Cancel</button>
           <span className="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>
-    )
-}
 
 export default Login;
