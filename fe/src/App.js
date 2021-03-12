@@ -1,25 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  const terms={
+    color:"dodgerblue"
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <form className="modal-content">
+    <div className="container" >
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr/>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required/>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required/>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required/>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember"/> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style={terms}>Terms Privacy</a>.</p>
+
+      <div className="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" className="cancelbtn">Cancel</button>
+        <button type="submit" className="signupbtn">Sign Up</button>
+      </div>
     </div>
-  );
+  </form>
+  )
 }
 
 export default App;
