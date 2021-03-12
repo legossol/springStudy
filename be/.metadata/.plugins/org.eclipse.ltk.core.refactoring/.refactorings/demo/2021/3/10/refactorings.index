@@ -24,3 +24,7 @@
 1615362145602	Rename package 'com.example.demo.articlerepository'
 1615362156762	Rename package 'com.example.demo.articledomain'
 1615362169065	Rename package 'com.example.demo.articlecontroller'
+1615442963062	Rename type 'User'
+1615443951998	Rename type 'Board'
+1615444061857	Rename type 'Article'
+1615449901067	Rename resource 'appplication.yml'

@@ -1,5 +1,9 @@
 package com.example.demo.bbs.repository;
 
-public interface BoardRepo{
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.bbs.domain.Board;
+
+public interface BoardRepo extends JpaRepository<Board,Long>{
 
 }
