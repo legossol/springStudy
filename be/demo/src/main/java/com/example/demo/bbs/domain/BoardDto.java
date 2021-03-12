@@ -9,6 +9,7 @@ import lombok.Data;
 @Component @Data
 public class BoardDto implements Serializable{
 	private static final long serialVersionUID = 1L;
+	
 	private long boardNo;
 	private String title;
 	private String index;

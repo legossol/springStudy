@@ -1,8 +1,14 @@
 package com.example.demo.article.domain;
 
-import javax.persistence.Column;
+import javax.persistence.*;
 
+@Entity
+@Table(name="articles")
 public class Article {
+	
+	@Id
+	@GeneratedValue
+	
 	@Column(name = "article_no")
 	private long articleNo;
 	@Column(name = "user_no")
