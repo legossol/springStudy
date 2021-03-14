@@ -1,5 +1,7 @@
 import './Signup.css'
+
 const SignUp = () =>
+(
   <form className="modal-content">
     <div className="container" >
       <h1>Sign Up</h1>
@@ -26,6 +28,6 @@ const SignUp = () =>
       </div>
     </div>
   </form>
-  
+)
 
 export default SignUp;

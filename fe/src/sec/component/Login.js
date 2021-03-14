@@ -1,10 +1,7 @@
-import './App.css';
+import './Login.css';
 
 const Login = () =>
-    // const butt={
-    //     background:"#f1f1f1"
-    // }
-
+        (
         <form className="modal-content animate" method="post">
             <div className="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" className="close" title="Close Modal">&times;</span>
@@ -29,5 +26,5 @@ const Login = () =>
           <span className="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>
-
+        )
 export default Login;
