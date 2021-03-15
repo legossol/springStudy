@@ -1,4 +1,4 @@
-import './Login.css';
+import '../component/Login.css';
 
 const Login = () =>
         (

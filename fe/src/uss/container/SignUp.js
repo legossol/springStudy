@@ -1,4 +1,4 @@
-import './Signup.css'
+import '../component/Signup.css'
 
 const SignUp = () =>
 (
