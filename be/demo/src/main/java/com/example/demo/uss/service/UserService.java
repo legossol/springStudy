@@ -1,5 +1,4 @@
 package com.example.demo.uss.service;
-package java.util.
 
 public interface UserService  {
 	public Optional<User> findOne(User t)
