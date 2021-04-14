@@ -3,6 +3,6 @@ package com.example.api.address;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AddressServiceImpl {
+public class AddressServiceImpl implements AddressService{
     
 }
