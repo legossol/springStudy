@@ -2,10 +2,6 @@ package com.example.api.common;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import com.example.api.ApiApplication;
-
-import org.springframework.boot.SpringApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,8 +1,10 @@
 package com.example.api.address;
 
+import org.springframework.stereotype.Component;
+
 import lombok.Data;
 
-@Data
+@Data @Component
 public class AddressDto {
     
     private Long addressId;
