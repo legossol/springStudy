@@ -5,10 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.CollectionId;
-
 @Entity @Table(name = "files")
-public class fileVo {
+public class FileVo {
     @Id
     @Column(name = "file_id")
     private long fileId;

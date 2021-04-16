@@ -1,8 +1,10 @@
 package com.example.api.user;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
+
+import javax.persistence.*;
+
 @Entity
+@Table(name = "users")
 public class User {
     @Column(name="user_id") private long userId;
     @Column(name="username") private String username;
