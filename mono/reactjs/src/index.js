@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from'./common/component/Home';
+import Home from './cmm/components/Home';
+import ArticleList from './board/components/ArticleList'
 
 ReactDOM.render(
-  
-    <Home />,
-  
+    <App />,
   document.getElementById('root')
 );
 
