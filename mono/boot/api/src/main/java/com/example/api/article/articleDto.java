@@ -12,4 +12,14 @@ public class ArticleDto {
     private String subject;
     private String content;
     private String rdate;
+    
+    public void setWriter(String email){
+        this.email  = email;
+    }
+    public String getWriter(){
+        return this.email;
+    }
+    public String toString(){
+        return "email: " + this.email+ "writer: "+this.writer;
+    }
 }
