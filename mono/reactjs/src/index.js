@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from 'reportWebVitals';
+import {createStore, combineReducers} from 'redux'
 import { BrowserRouter } from 'react-router-dom';
+
+const rootReducer = combineReducers({counterReducer})
+const store = createStore(rootReducer)
 
 ReactDOM.render(
   <BrowserRouter>
