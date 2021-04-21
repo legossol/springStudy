@@ -1,12 +1,11 @@
 import React from 'react'  
-import counterReducer, {increase, decrease} from './Counter.reducer'
 
-const App = ({number, increase, decrease}) =>{
+const Home = ({number, increase, decrease}) =>{
     return(<>
     <h2 style={{color:'black'}}>카운터</h2>
     <div>
         <div>
-            <button aria-label="+"onClick={increase}>
+            <button aria-label="+"onClick={ increase}>
                 +
             </button>
             <span style={{color: 'black', width: 100}}>{number}</span>
@@ -17,6 +16,7 @@ const App = ({number, increase, decrease}) =>{
     </div>
     </>
     )
+    
 }
 
-export default App
+export default Home
