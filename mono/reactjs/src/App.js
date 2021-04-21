@@ -1,13 +1,10 @@
 import Home from 'common/component/Home'
 import { ArticleList, ArticleWrite, ArticleDetail, ArticleUpdate } from 'article/index'
-
-import Login from 'user/component/Login'
-import SignUp from 'user/component/SignUp'
-import UserDetail from 'user/component/UserDetail'
+import { Counter, CounterContainer  } from 'counter/index'
+import {Login, SignUp, UserDetail} from 'user/index'
 import 'App.css';
 import { Route } from 'react-router-dom'
 import { SeoulCCTV, News  } from 'board/index'
-import { Counter, CounterContainer  } from 'counter/index'
 
 const App = () => {
   return (
