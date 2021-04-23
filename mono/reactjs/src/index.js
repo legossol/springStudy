@@ -9,9 +9,10 @@ import {createStore, combineReducers} from 'redux'
 import counterReducer from 'counter/reducer/counter.reducer'
 import counterSlice from 'counter/reducer/counter.slice'
 import {configureStore} from '@reduxjs/toolkit'
+import todoReducer from 'todo/reducer/todo.reducer'
 // import store from 'app/store'
 
-const rootReducer = combineReducers({counterSlice})
+const rootReducer = combineReducers({counterSlice, todoReducer})
 // const store = createStore(rootReducer) 바닐라 리덕스
 const store = configureStore({reducer:rootReducer})
 

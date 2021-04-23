@@ -1,5 +1,5 @@
 package com.example.api.user;
 
-public class UserService {
-    
+public interface UserService {
+    public void test();
 }
