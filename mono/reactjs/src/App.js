@@ -1,13 +1,11 @@
 import Home from 'common/component/Home'
 import { ArticleList, ArticleWrite, ArticleDetail, ArticleUpdate } from 'article/index'
-
-import Login from 'user/component/Login'
-import SignUp from 'user/component/SignUp'
-import UserDetail from 'user/component/UserDetail'
+import { Counter, CounterContainer ,CounterSliceContainer} from 'counter/index'
+import {Login, SignUp, UserDetail} from 'user/index'
 import 'App.css';
 import { Route } from 'react-router-dom'
 import { SeoulCCTV, News  } from 'board/index'
-import { Counter, CounterContainer  } from 'counter/index'
+import { Todo, TodoApp } from 'todo/index'
 
 const App = () => {
   return (
@@ -25,6 +23,8 @@ const App = () => {
       <Route exact path='/user/login' component={Login} />
       <Route exact path='/user/signUp' component={SignUp} />
       <Route exact path='/user/user-detail' component={UserDetail} />
+      <Route exact path='/todo/todo' component={Todo}/>
+      <Route exact path='/todo/todo-app' component={TodoApp}/>
   </div>
   );
 }
