@@ -1,6 +1,4 @@
-export { default as ChangeTodo } from 'todo/component/ChangeTodo'
 export { default as Todos } from 'todo/component/Todos'
 export { default as Todo } from 'todo/component/Todo'
 export { default as AddTodo } from 'todo/component/AddTodo'
-export { default as CompletedTodos } from 'todo/component/CompletedTodos'
 export { default as TodoApp } from 'todo/container/TodoApp'
