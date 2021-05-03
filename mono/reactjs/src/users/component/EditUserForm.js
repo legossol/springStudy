@@ -6,8 +6,6 @@ const EditUserFrom = ({history}) => {
     console.log("EditUserFrom props:",JSON.stringify(history) )
     const initialuser = {userno: null,  name: '', username: '', password: '', email: '', age: '',birthday: '', gender: '', phone:''};
     const [user, setUser] = useState(initialuser);
-
-
     const {
         userno,
         name,
@@ -18,10 +16,7 @@ const EditUserFrom = ({history}) => {
         birthday,
         gender,
         phone} = user;
-
- 
-
-
+        
     const updateUser = () =>{
         axios.get(`http://localhost:8080/users/${localStorage.getItem('userno')}`)
         .then(res =>{
